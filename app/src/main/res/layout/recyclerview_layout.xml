@@ -6,8 +6,8 @@
     android:id="@+id/relative_layout">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/cv_Image"
         android:src="@mipmap/ic_launcher"/>
 

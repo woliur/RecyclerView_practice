@@ -25,29 +25,27 @@ public class MainActivity extends AppCompatActivity {
     private void initImageBitmap(){
         Log.d(TAG, "initImageBitmap: prepareing bitmap rifad");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg");
+        mImageUrl.add("https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/b/a/bangladesh.jpg");
         mName.add("Bangladesh");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg");
+        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/2000px-Flag_of_Pakistan.svg.png");
         mName.add("Pakistan");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg");
+        mImageUrl.add("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png");
         mName.add("India");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg");
+        mImageUrl.add("https://cdn.britannica.com/34/4034-004-9D851F0F.jpg");
         mName.add("Myanmar");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg");
+        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/2000px-Flag_of_Bhutan.svg.png");
         mName.add("Bhutan");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg");
+        mImageUrl.add("https://www.onlinestores.com/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/n/e/nepal-nylon_6.jpg");
         mName.add("Nepal");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg");
+        mImageUrl.add("https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/s/r/sri-lanka-flag-211-p_1.png");
         mName.add("Sri Lanka");
 
-        mImageUrl.add("https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg");
-        mName.add("Thailand");
 
         initRecyclerView();
 
